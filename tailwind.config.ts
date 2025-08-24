@@ -26,11 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,7 +44,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					light: 'hsl(var(--accent-light))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -52,16 +55,28 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				apple: {
+					dark: 'hsl(var(--apple-dark))',
+					gray: 'hsl(var(--apple-gray))',
+					'light-gray': 'hsl(var(--apple-light-gray))',
+					'ultra-light': 'hsl(var(--apple-ultra-light))',
+					blue: 'hsl(var(--apple-blue))',
+					'blue-dark': 'hsl(var(--apple-blue-dark))',
+					'blue-light': 'hsl(var(--apple-blue-light))'
+				},
+				ewarrants: {
+					purple: 'hsl(var(--ewarrants-purple))',
+					'purple-light': 'hsl(var(--ewarrants-purple-light))'
 				}
+			},
+			boxShadow: {
+				'apple-sm': 'var(--shadow-sm)',
+				'apple-md': 'var(--shadow-md)',
+				'apple-lg': 'var(--shadow-lg)',
+				'apple-xl': 'var(--shadow-xl)'
+			},
+			backdropBlur: {
+				'apple': '20px'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
