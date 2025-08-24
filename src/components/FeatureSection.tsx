@@ -105,10 +105,10 @@ const FeatureSection: React.FC<FeatureSectionProps> = ({
               <img 
                 src={mockupSrc}
                 alt={mockupAlt}
-                className="max-w-xs md:max-w-sm lg:max-w-md h-auto drop-shadow-2xl"
+                className="max-w-xs md:max-w-sm lg:max-w-md h-auto drop-shadow-2xl float-animation"
               />
-              {/* Subtle glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-t from-accent/10 to-transparent rounded-3xl blur-3xl -z-10"></div>
+              {/* Enhanced glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-t from-accent/20 via-primary/10 to-transparent rounded-3xl blur-3xl -z-10 pulse-glow"></div>
             </div>
           </div>
         </div>

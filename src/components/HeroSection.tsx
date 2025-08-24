@@ -60,10 +60,10 @@ const HeroSection = () => {
             <img 
               src={mockupHome}
               alt="eWarrants App Screenshot"
-              className="max-w-xs md:max-w-sm lg:max-w-md h-auto mx-auto drop-shadow-2xl"
+              className="max-w-xs md:max-w-sm lg:max-w-md h-auto mx-auto drop-shadow-2xl float-animation"
             />
-            {/* Subtle background glow */}
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-accent/10 to-transparent rounded-3xl blur-3xl -z-10"></div>
+            {/* Enhanced background glow */}
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-accent/15 to-transparent rounded-3xl blur-3xl -z-10 pulse-glow"></div>
           </div>
         </div>
       </div>

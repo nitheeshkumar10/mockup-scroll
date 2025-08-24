@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,10 +22,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-apple-dark mb-4">Quick Links</h3>
             <ul className="space-y-3 text-sm text-apple-gray">
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Home</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Features</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Support</a></li>
+              <li><Link to="/" className="hover:text-apple-dark transition-colors">Home</Link></li>
+              <li><a href="#about" className="hover:text-apple-dark transition-colors">About Us</a></li>
+              <li><a href="#features" className="hover:text-apple-dark transition-colors">Features</a></li>
+              <li><a href="#support" className="hover:text-apple-dark transition-colors">Support</a></li>
             </ul>
           </div>
 
@@ -32,10 +33,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-apple-dark mb-4">Legal</h3>
             <ul className="space-y-3 text-sm text-apple-gray">
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Terms & Conditions</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-apple-dark transition-colors">GDPR</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-apple-dark transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-conditions" className="hover:text-apple-dark transition-colors">Terms & Conditions</Link></li>
+              <li><a href="#cookies" className="hover:text-apple-dark transition-colors">Cookie Policy</a></li>
+              <li><a href="#gdpr" className="hover:text-apple-dark transition-colors">GDPR</a></li>
             </ul>
           </div>
         </div>
